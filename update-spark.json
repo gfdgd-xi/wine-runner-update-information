@@ -1,5 +1,5 @@
 {
-	"Version": "3.2.1",
-	"New": "3.2.1 更新内容：\n※1、Windows 虚拟机安装工具支持非 X86 架构；\n※2、应用打包器可以与星火应用商店配合构建 arm/all 全架构的 Wine 包；\n※3、Windows 虚拟机安装工具支持调用 Qemu；\n※4、新增 Qemu User 运行 Wine 的帮助入口；\n※5、修复 Windows 虚拟机的自动配置镜像缺少 aria2c.exe 的故障；\n※6、支持在更新程序版本时自动关闭程序进程；\n7、运行器和打包器支持调用 spark-wine8；\n8、修改作者信息；\n9、新增安装包构建时间；\n10、优化 Wine 运行器更新策略。\n\n更新时间：2023年04月29日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.2.1/spark-deepin-wine-runner_3.2.1_all.deb"]
+	"Version": "3.2.2",
+	"New": "3.2.2 更新内容：\n※1. 修改源地址（迁出 Gitlink）；\n※2. 修复非 X86 架构运行器主页面虚拟机工具禁用的问题；\n3、部分组件支持选择最优源。\n\n更新时间：2023年05月12日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.2.2/spark-deepin-wine-runner_3.2.2_all.deb"]
 }

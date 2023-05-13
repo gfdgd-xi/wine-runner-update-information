@@ -1,5 +1,5 @@
 {
-	"Version": "2.0.1",
-	"New": "如果为旧的打包标准，升级过后将会自动切换到UOS标准！！！\n\n\n2.0.1 更新内容：\n※1、新增移除在 Ubuntu 上安装的 UEngine 及其附属脚本的功能\n※2、优化 Ubuntu 安装器启用和安装逻辑，不允许在 UOS/Deepin 安装移植的 Ubuntu UEngine\n※3、Ubuntu 安装器不允许在非 X86 架构上使用\n※4、在升级/安装运行器的 deb 时会自动移除安装错误的 UEngine 生成的脚本\n※5、Ubuntu 安装器进行环境监测\n※6、修复应用商店换源问题（由@Bail修复）\n7、修改作者信息\n8、更新使用帮助\n9、关于窗口修复系统失败错误的问题并新增安装包构建时间\n10、移除赞赏功能\n11、微型应用商店适配了更新关闭进程（由@Bail实现）",
-	"Url": ["https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.0.1/com.gitee.uengine.runner.spark_2.0.1_all.deb", "https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.0.1/com.gitee.uengine.runner.spark_2.0.1_all.deb"]
+	"Version": "2.1.0",
+	"New": "※1、修复源地址（迁出 Gitlink）；\n※2、优化 UEngine 安装器，可以在 Debian/Ubuntu 使用（Debian11/Debian10/Ubuntu20.04 需要安装 dtk（≥5.5），dtk 可以从 https://gitee.com/gfdgd-xi/dtk-sources-for-uos-apt/releases 获取）；\n※3、UEngine 安装器不再强制安装 5.17.3 内核以运行 UEngine 运行环境，只要当前使用内核支持 binder 模块即可继续（安装前会进行检测，如果用 2.0.0/2.0.1 安装了 5.17.3 内核也可以继续使用该内核）；\n※4、修复 uengine-loading-ubuntu 的问题（参考 #I6CKHB:Ubuntu 22.04 LTS安装运行器并按提示安装UEngine后UEngine服务持续崩溃无法使用 ）以及 binder 模块调用问题。",
+	"Url": ["https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.1.0/com.gitee.uengine.runner.spark_2.1.0_all.deb", "https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.1.0/com.gitee.uengine.runner.spark_2.1.0_all.deb"]
 }

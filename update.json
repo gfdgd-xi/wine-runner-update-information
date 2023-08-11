@@ -1,5 +1,5 @@
 {
-	"Version": "3.3.0.1",
-	"New": "3.3.0.1 更新内容：\n※1、修复运行器打开主界面不进行任何操作但 CPU 占用率过高的问题\n※2、修复运行器运行器（局部）无法正常移除的问题\n\n3.3.0 更新内容：\n※1、简易打包器支持选择 Wine 版本以及修改打包生成的 deb 包的架构为 all；\n※2、修改容器自动配置脚本的 Gitlink 源为 Gitee 源\n※3、在安装更多 Wine 处安装 Wine 后主窗口 Wine 版本下拉框自动更新\n※4、设置打包器在 Ubuntu 依旧打包 xz 格式的 deb 包\n※5、修复 Wine 简易打包器 control 文件 Installed-Size 格式不规范的问题\n※6、更换 Box86 源并支持安装 Box64（如果为 aarch64 架构）\n※7、新增 Wine 自建源（支持 Debian10、Deepin20）\n※8、修改 WineHQ 安装器使其支持选择国内清华大学镜像源或 WineHQ 官方源\n※9、新增 Visual FoxPro 安装器\n※10、新增安装局部运行库以解决部分低版本系统运行高版本 Wine 的问题且不与其他运行库和兼容层冲突\n※11、支持调用原版的 Exagear 以及 Qemu User（i386、x86_64） 运行 Wine\n12、新增自动构建：https://github.com/gfdgd-xi/deep-wine-runner/actions/workflows/auto-building.yml（只供尝鲜）\n13、新增 Wine 日构建（在“安装更多 Wine”处可以获取，目前有 i386、amd64、i386+amd64、amd64+wow64 mode、aarch64）\n14、优化容器清理脚本\n15、修复部分组件没完全换源的问题，部分组件支持自动换可用源\n\n更新时间：2023年07月12日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.3.0.1/spark-deepin-wine-runner_3.3.0.1_all.deb"]
+	"Version": "3.4.0",
+	"New": "3.4.0 更新内容：\n※1、修复简易打包器无法打开的问题以及 Wine 识别错误的问题\n※2、高级打包器支持多 .desktop 分别设置不同的 MimeType\n※3、修复运行器在 Ubuntu 23 的安装问题\n※4、高级打包器支持导出/导入填写信息\n※5、Deepin 23 支持使用 Winetricks\n※6、新增视频教程\n※7、修复虚拟机工具在检测到 Qemu 磁盘但没有安装 Qemu 时无法启动的问题\n※8、修复虚拟机工具的一些问题并调整部分设置\n※9、虚拟机工具支持设置 UEFI 启动\n※10、虚拟机安装工具提供 LoongArch 新世界版本\n11、高级打包器支持隐藏输入框以及使用小字体\n12、打包器提供 bcm 和 dcm wine 支持\n13、修复星火 wine 配置错误问题\n14、打包器支持多线程打包\n15、修复升级工具问题：https://gitee.com/gfdgd-xi/uengine-runner/issues/I6ZRZX\n16、跟进打包器 run.sh 模板\n17、云沙箱新增 cloud.vdnel.cn\n18、打包器新增分类 Game、System、AudioVideo\n19、修复安装 Box64 时源里没有 libc6:armhf 导致无法安装的问题\n\n更新时间：2023年08月11日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.4.0/spark-deepin-wine-runner_3.4.0_all.deb"]
 }

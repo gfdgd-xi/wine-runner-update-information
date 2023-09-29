@@ -1,5 +1,5 @@
 {
-	"Version": "1.1.0.1",
-	"New": "1.1.0更新内容：\n※1、支持在 Deepin20/UOS 安装 Waydroid（效果无法保证且需要升级系统组件，容易导致系统问题，且在 UOS 下要开启开发者模式）\n※2、修复在 Deepin 23 运行时因为缺少 PIL 库导致无法运行的问题\n※3、支持在 X11 下使用 Waydroid 并自动启动 Sway/Weston\n※4、修复 Waydroid 应用商店可能出现 Session Stop 的问题\n※5、支持切换 Waydroid GPU\n※6、新增右键打开 APK 功能\n※7、更换程序图标\n※8、新增关闭 Waydroid 多窗口功能\n※9、新增安装 Widevine 功能\n※10、修复 Waydroid 运行器 1.0.0 在 X11 环境安装 Waydroid 后无法正常在 Weston/Sway 显示主界面\n11、新增设置屏幕自动旋转的功能\n12、新增修复 Waydroid 多窗口在部分桌面环境无法显示鼠标问题的功能",
-	"Url": ["https://gitee.com/gfdgd-xi/waydroid-runner/releases/download/1.1.0.1/spark-waydroid-runner_1.1.0.1_all.deb", "https://gitee.com/gfdgd-xi/waydroid-runner/releases/download/1.1.0.1/spark-waydroid-runner_1.1.0.1_all.deb"]
+	"Version": "1.2.0.1",
+	"New": "1.2.0.1更新内容：\n※1、修复GPU切换无效问题\n※2、修复部分脚本识别Session运行状态失败的问题\n※3、增加剪切板与Linux主系统互通功能(仅限Wayland模式)\n※4、增加GMS注册需要的Android-id获取功能\n※5、(重磅更新)一键配置功能全面升级,窗口化/谷歌拼音输入法/防止旋转/剪切板互通等一次到位\n※6、修复Waydroid运行器全屏显示时主系统死机问题",
+	"Url": ["https://gitee.com/gfdgd-xi/waydroid-runner/releases/download/1.2.0.1/spark-waydroid-runner_1.2.0.1_all.deb"]
 }

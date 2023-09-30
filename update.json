@@ -1,5 +1,5 @@
 {
-	"Version": "3.4.0.1",
-	"New": "3.4.0.1 更新内容：\n※1、修复部分高性能机器打包器提示“无效的压缩参数”：https://gitee.com/gfdgd-xi/deep-wine-runner/issues/I7SMTJ\n※2、支持设置程序字体大小：https://gitee.com/gfdgd-xi/deep-wine-runner/issues/I7SAYE\n\n\n3.4.0 更新内容：\n※1、修复简易打包器无法打开的问题以及 Wine 识别错误的问题\n※2、高级打包器支持多 .desktop 分别设置不同的 MimeType\n※3、修复运行器在 Ubuntu 23 的安装问题\n※4、高级打包器支持导出/导入填写信息\n※5、Deepin 23 支持使用 Winetricks\n※6、新增视频教程\n※7、修复虚拟机工具在检测到 Qemu 磁盘但没有安装 Qemu 时无法启动的问题\n※8、修复虚拟机工具的一些问题并调整部分设置\n※9、虚拟机工具支持设置 UEFI 启动\n※10、虚拟机安装工具提供 LoongArch 新世界版本\n11、高级打包器支持隐藏输入框以及使用小字体\n12、打包器提供 bcm 和 dcm wine 支持\n13、修复星火 wine 配置错误问题\n14、打包器支持多线程打包\n15、修复升级工具问题：https://gitee.com/gfdgd-xi/uengine-runner/issues/I6ZRZX\n16、跟进打包器 run.sh 模板\n17、云沙箱新增 cloud.vdnel.cn\n18、打包器新增分类 Game、System、AudioVideo\n19、修复安装 Box64 时源里没有 libc6:armhf 导致无法安装的问题\n\n更新时间：2023年08月11日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.4.0.1/spark-deepin-wine-runner_3.4.0.1_all.deb"]
+	"Version": "3.4.1",
+	"New": "3.4.1 更新内容：\n※1、支持识别 spark-wine8-wow 且打包时可以使用该 wine\n※2、替换安装 Box86 的 pkexec 为 sudo\n※3、Wine 下载工具新增更多 Wine\n\n更新时间：2023年09月30日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.4.1/spark-deepin-wine-runner_3.4.1_all.deb"]
 }

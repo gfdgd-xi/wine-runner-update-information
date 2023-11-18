@@ -1,5 +1,5 @@
 {
-	"Version": "3.4.1",
-	"New": "3.4.1 更新内容：\n※1、支持识别 spark-wine8-wow 且打包时可以使用该 wine\n※2、替换安装 Box86 的 pkexec 为 sudo\n※3、Wine 下载工具新增更多 Wine\n\n更新时间：2023年09月30日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.4.1/spark-deepin-wine-runner_3.4.1_all.deb"]
+	"Version": "3.5.0",
+	"New": "3.5.0 更新内容：\n※1、虚拟机工具支持 kvm 检测\n※2、修改虚拟机工具提示文本，新增对 UOS 3a4000 用户无法正常使用 Qemu 的解决方案\n※3、在主界面点击“安装”按钮后自动切换至帮助页面\n※4、新增虚拟机日志输出和读取功能\n※5、新增Qemu测试测试功能\n※6、虚拟机工具支持安装/运行 arm32、arm64 架构的系统\n※7、修复虚拟机工具在系统版本选择第 5 项及以后出现不会挂载 ISO 的问题（使用 Qemu 的情况下）\n※8、修复简易打包器无法打开的问题 #I85F9M:简易打包器无法打开\n※9、生态适配脚本打包器支持正确根据打包结果显示打包成功/失败 #I7D83Z:简易打包器/生态适配脚本打包器问题\n10、生态适配脚本打包器设置使用 xz 格式打包 deb\n11、新增 ace 包\n12、虚拟机工具支持强制关闭 VirtualBox/Qemu，并增加了对 Windows 7 安装脚本的检测\n13、新增 lat 翻译器安装选项\n\n更新时间：2023年11月18日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.5.0/spark-deepin-wine-runner_3.5.0_all.deb"]
 }

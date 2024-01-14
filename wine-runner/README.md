@@ -1,3 +1,5 @@
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1739155456234286"
+     crossorigin="anonymous"></script>
 <p width=100px align="center"><img src="https://storage.deepin.org/thread/202208031419283599_deepin-wine-runner.png"></p>
 <h1 align="center">Wine 运行器 3.2.1</h1>
 <hr>

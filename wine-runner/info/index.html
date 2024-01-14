@@ -2,8 +2,38 @@
     <title>Wine 运行器程序公告</title>
 </head>
 <body>
+    <h3>常见问题</h3>
+    <pre>
+<b>1、 arm电脑安装哪个wine？</b>
+    有以下几种方案：
+        a. box86+x86 wine，一般推荐这一方案
+        b. 是exagear+wine x86（只支持鲲鹏）
+        c. 运行arm wine，推荐用 wine ce 因为原版的 arm wine 只能运行 arm exe 但 wine ce 可以运行 x86 exe
+        一般用户推荐使用方法1/2或者 wine ce，但 wine ce 需要系统的 libc6 比较新
+<b>2、麒麟系统能用吗</b>
+    能，但是openkylin要自己补依赖
+<b>3、字体问题怎么处理</b>
+wine 运行器的字体商店或者星火的安装 Windows 字体，在打包deb时推荐把字体打包在里面
+<b>4、deepin wine8 stable 能不能在arm用（box64）</b>
+    可以，但需要拉取box64 Github最新的代码编译
+<b>5、arm dwine6不能运行64位exe</b>
+    是的，不支持，同理也不支持64位wine容器。但可以安装64位wine+box64解决
+<b>6、Windows虚拟机配置工具点击安装无反应</b>
+    菜单栏里面找到安装日志然后到 https://gitee.com/gfdgd-xi/deep-wine-runner/issues 反馈
+<b>7、运行 wine提示libc6版本太老</b>
+    在菜单栏“运行库”里安装应用运行库，然后重启运行器选择使用运行器运行库运行xxx
+<b>8、我想要非X86架构 wine运行器离线包或者定制x86 wine运行器离线版</b>
+    因为平台特殊，需要单独联系开发者定制（一般是付费服务）
+<b>10、 我想装 .net framework 怎么办</b>
+    首先需要声明一点，.net framework 程序运行效果较差，不管是用 mono 还是微软原版的 .net framework
+    可以安装mono（社区的开源实现），当然也可以安装微软原版的 .net framrwork
+    均可在 Wine 运行器主界面的菜单栏“Wine”=》“在指定Wine、容器安装组件”处找到安装工具
+    同理也有 Internet Explorer 的开源实现 gecko，但极不推荐安装微软原版的 Internet Explorer
+    </pre>
+    <hr/>
     <h3>用户评价</h3>
     <p><b>应用介绍：Wine运行器和Wine打包器傻瓜式使用教程（小白专用）（By <a href="https://bbs.deepin.org/user/227203">鹤舞白沙</a>）——<a href="https://bbs.deepin.org/post/246837">https://bbs.deepin.org/post/246837</a></b></p>
+    <p>记录安装wine运行器以及虚拟机（By <a href="https://bbs.deepin.org/user/303487">HackerNotTerminal</a>）：<a href="https://bbs.deepin.org/post/264976">https://bbs.deepin.org/post/264976</a></p>
     <p>使用交流：在deepin linux下安装windows 7虚拟机的经验总结（By <a href="https://bbs.deepin.org/user/286865">阿甘</a>）——<a href="https://bbs.deepin.org/post/253159">https://bbs.deepin.org/post/253159</a></p>
     <p>使用交流：万兴pdf wine方案（By <a href="https://bbs.deepin.org/user/78179">川顺页</a>）——<a href="https://bbs.deepin.org/post/252328">https://bbs.deepin.org/post/252328</a></p>
     <p>V23：写篇心得，Wine运行器手动删容器启动程序法（By <a href="https://bbs.deepin.org/user/215432">fax928</a>）——<a href="https://bbs.deepin.org/post/251434">https://bbs.deepin.org/post/251434</a></p>
@@ -11,7 +41,9 @@
     <p>经验分享：使用wine运行器打包无安装包的软件（By <a href="https://bbs.deepin.org/user/285179">Amber</a>）——<a href="https://bbs.deepin.org/post/247720">https://bbs.deepin.org/post/247720</a></p>
     
     <hr/>
-    <h1>常见链接</h1>
+    <h3>常见链接</h3>
+    <p>Wine 运行器视频教程（B站）:<a href="https://space.bilibili.com/695814694/channel/collectiondetail?sid=1610353">https://space.bilibili.com/695814694/channel/collectiondetail?sid=1610353</a></p>
+    <p>Wine 运行器视频教程（Youtube）：<a href="https://www.youtube.com/watch?v=qDaPBiIdGAs&list=PLoXD11L1NQAx8A1Qskgu3tUoi0nHKJcmg">https://www.youtube.com/watch?v=qDaPBiIdGAs&list=PLoXD11L1NQAx8A1Qskgu3tUoi0nHKJcmg</a></p>
     <p>星火应用商店：<a href="https://spark-app.store/">https://spark-app.store/</a></p>
     <p>Wine运行器和Wine打包器傻瓜式使用教程（小白专用） By 鹤舞白沙：<a href="https://bbs.deepin.org/post/246837">https://bbs.deepin.org/post/246837</a></a></p>
     <p>统信官方生态适配工具+教程：<a href="https://www.123pan.com/s/pDSKVv-ecpWv">https://www.123pan.com/s/pDSKVv-ecpWv</a></p>
@@ -20,7 +52,16 @@
     <hr/>
     <p align="center"><img src="https://gitee.com/gfdgd-xi/deep-wine-runner/widgets/widget_card.svg?colors=eae9d7,2e2f29,272822,484a45,eae9d7,747571"></p>
     <hr/>
-    <h1>程序安装/打开量</h1>
+    <h3>请作者喝杯茶</h3>
+    <p>如果您觉得 Wine 运行器对你有帮助，可以请作者喝杯茶 </p>
+    <p>
+        <img src="Icon/QR/Wechat.png" width="200"  /> 
+        <img src="Icon/QR/Alipay.jpg" width="200"  />
+        <img src="Icon/QR/QQ.png" width="200" >
+    </p>
+    <p>如果图片无法显示可以<a href="https://gitee.com/gfdgd-xi/deep-wine-runner#%E8%AF%B7%E4%BD%9C%E8%80%85%E5%96%9D%E6%9D%AF%E8%8C%B6">点击此处查看</a></p>
+    <hr/>
+    <h3>程序安装/打开量</h3>
     <p align="center"><img src="http://gfdgd-xi.github.io/images/wine-runner-open.svg"></p>
     <p align="center"><img src="http://gfdgd-xi.github.io/images/wine-runner.svg"></p>
 </body>

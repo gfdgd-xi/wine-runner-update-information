@@ -3,5 +3,5 @@
 	"New": "3.6.1 更新内容：\n※1、修复应用无法打开的问题\n\n3.6.0 更新内容：\n※1、修复高级打包器选择软件适配脚本后无法打包的问题 https://gitee.com/gfdgd-xi/deep-wine-runner/issues/I8I110\n※2、支持调用 Deepin Wine8 Stable\n※3、移除过时的 Wine 安装程序入口\n※4、Wine 安装器支持根据地区自动选择国内源以及国际源\n※5、Wine 安装器新增 Sourceforge 源\n※6、新增 Wine 运行报告生成功能\n※7、初步英语翻译\n※8、新增离线安装包（只支持 amd64）\n※9、支持识别 /opt 文件夹下的 Wine\n10、新增 Wine 运行器视频教程的 Youtube 入口\n\n更新时间：2023年12月24日",
 	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.6.1/spark-deepin-wine-runner_3.6.1_all.deb"],
 	"Url-pkg": ["http://127.0.0.1:8000/spark-deepin-wine-runner-3.6.1-1-any.pkg.tar.zst"],
-	"Url-rpm": [null]
+	"Url-rpm": ["http://10.0.0.5:8000/spark-deepin-wine-runner-3.7.0-0.noarch.rpm"]
 }

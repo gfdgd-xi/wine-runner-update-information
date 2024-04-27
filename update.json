@@ -1,7 +1,7 @@
 {
-	"Version": "3.7.0",
-	"New": "3.7.0 更新内容：\n※1、修复简易打包器在 Deepin/UOS 上无法正常启动的问题\n※2、打包器生成的 deb 修复在非 Deepin/UOS 且未安装星火应用商店的系统中启动器无程序图标的问题\n※3、修复 Box86/64 国内源源失效的问题\n※4、适配 Arch Linux\n※5、适配 Fedora\n※6、打包器支持将 deb 包转换为其它格式\n※7、适配 deepin 23 beta3\n8、新增公告和新版本提示功能\n9、修复公告的链接在部分机器无法正常打开的问题\n10、新增赞赏入口\n11、支持识别 spark-wine9、spark-wine9-wow\n\n更新时间：2024年02月02日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.7.0/spark-deepin-wine-runner_3.7.0_all.deb"],
-	"Url-pkg": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.7.0/spark-deepin-wine-runner-3.7.0-1-any.pkg.tar.zst"],
-	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.7.0/spark-deepin-wine-runner-3.7.0-0.noarch.rpm/download"]
+	"Version": "3.8.0",
+	"New": "3.8.0 更新内容：\n※1、修复系统/应用运行库无法下载的问题\n※2、打包器支持指定打包架构为 loong64、loongarch64、armhf 和 amd64\n※3、更新 Geek Uninstaller 版本\n※4、默认开启英语翻译\n※5、更新 dxvk 版本\n※6、修复新版本 Qemu 没有 --soundhw 参数导致无法正常开启虚拟机的问题\n※7、支持 Qemu 磁盘扩容\n8、修复问题 #I9B4L0:Debian SID的原版7z可能会出现问题\n9、针对 Loongarch ACE 做特别优化\n\n更新时间：2024年04月27日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.8.0/spark-deepin-wine-runner_3.8.0_all.deb"],
+	"Url-pkg": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.8.0/spark-deepin-wine-runner-3.8.0-1-any.pkg.tar.zst"],
+	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.8.0/spark-deepin-wine-runner-3.8.0-0.noarch.rpm/download"]
 }

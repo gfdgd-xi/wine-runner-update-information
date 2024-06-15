@@ -1,7 +1,7 @@
 {
-	"Version": "3.9.0",
-	"New": "3.9.0 更新内容：\n※1、UOS Mips64（如 3a4000）用户无需手动降级 Qemu 即可正常开启使用虚拟机\n※2、修复开启部分 exe 提示参数有误的问题\n※3、Qemu 在启动时可以按 ESC 键打开启动菜单\n※4、虚拟机工具 Windows 7 自动安装镜像文件选项内置 Virtio 驱动安装包\n※5、Qemu 虚拟机参数调整若干\n※6、修复虚拟机安装工具系统安装选项会自动跳回第一项的问题\n※7、优化简易打包器包名识别机制\n※8、减少不必要的压缩以减少打包器打包 deb 所需时间\n※9、修复简易打包器生成的 deb 包无法运行的问题\n10、优化 lat 安装脚本\n11、调整星火 Wine 助手路径\n\n更新时间：2024年06月02日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.9.0/spark-deepin-wine-runner_3.9.0_all.deb"],
-	"Url-pkg": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.0/spark-deepin-wine-runner-3.9.0-1-any.pkg.tar.zst/download"],
-	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.0/spark-deepin-wine-runner-3.9.0-0.noarch.rpm/download"]
+	"Version": "3.9.1",
+	"New": "3.9.1 更新内容：\n※1、修复 Windows 虚拟机安装工具安装程序在 Mips 架构无法正确启动虚拟机的问题\n※2、优化打包器依赖\n\n3.9.0 更新内容※1、UOS Mips64（如 3a4000）用户无需手动降级 Qemu 即可正常开启使用虚拟机\n※2、修复开启部分 exe 提示参数有误的问题\n※3、Qemu 在启动时可以按 ESC 键打开启动菜单\n※4、虚拟机工具 Windows 7 自动安装镜像文件选项内置 Virtio 驱动安装包\n※5、Qemu 虚拟机参数调整若干\n※6、修复虚拟机安装工具系统安装选项会自动跳回第一项的问题\n※7、优化简易打包器包名识别机制\n※8、减少不必要的压缩以减少打包器打包 deb 所需时间\n※9、修复简易打包器生成的 deb 包无法运行的问题\n10、优化 lat 安装脚本\n11、调整星火 Wine 助手路径\n\n更新时间：2024年06月02日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.9.0/spark-deepin-wine-runner_3.9.1_all.deb"],
+	"Url-pkg": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.0/spark-deepin-wine-runner-3.9.1-1-any.pkg.tar.zst/download"],
+	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.0/spark-deepin-wine-runner-3.9.1-0.noarch.rpm/download"]
 }

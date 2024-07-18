@@ -1,5 +1,5 @@
 {
-	"Version": "2.2.0.1",
-	"New": "※1、支持 deepin 23，不需要强制依赖 aapt\n※2、修复 deepin 23 安装的 APK 无法正常在启动器显示图标的问题\n※3、新增 ARM 架构非飞腾 CPU 识别防止破坏鲲鹏 kbox 环境\n※4、修复部分系统在使用程序的一些功能时发生崩溃的问题\n※5、新增 UEngine For Wayland 补丁\n6、优化安装量统计机制\n7、关于窗口新增赞助页\n8、新增 QQ 交流群入口\n9、内置 Via 浏览器",
-	"Url": ["https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.2.0.1/com.gitee.uengine.runner.spark_2.2.0.1_all.deb", "https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.2.0.1/com.gitee.uengine.runner.spark_2.2.0.1_all.deb"]
+	"Version": "2.2.1",
+	"New": "※1、修复 UEngine Ubuntu 安装器下载链接失效的问题",
+	"Url": ["https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.2.1/com.gitee.uengine.runner.spark_2.2.1_all.deb", "https://gitee.com/gfdgd-xi/uengine-runner/releases/download/2.2.1/com.gitee.uengine.runner.spark_2.2.1_all.deb"]
 }

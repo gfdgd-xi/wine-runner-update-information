@@ -4,26 +4,36 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
-    <h3>在使用运行器时不要随便动 .deepinwine 下已经存在的容器，否则会导致安装的 wine 应用无法正常打开</h3>
-    <h3>除非你有把握不会损坏容器</h3>
-    <h3>如果不需要打包以及特殊需求，默认的 ~/.wine 就可以了</h3>
+    <h3>公告</h3>
+    <p>各位用户：</p>
+    <p>&nbsp;&nbsp;1.Wine 和虚拟机不是一个东西，请注意区分，在向他人求助时对于虚拟机的问题应该使用“Windows 虚拟机”、“Wine 运行器的虚拟机安装工具”等而非直接简写为“Wine”等。</p>
+    <p>如“Wine 上面安装了 Windows XP 虚拟机怎么删除？”是不适宜的，应当为“Wine 运行器（的虚拟机安装工具）上面安装了 Windows XP 虚拟机怎么删除？”</p>
+    <p>&nbsp;&nbsp;2. 在使用运行器时不要随便动 .deepinwine 下已经存在的容器，否则会导致安装的 wine 应用无法正常打开，除非你有十足的把握不会损坏容器。如果不需要打包以及特殊需求，默认的 ~/.wine 就可以了。</p>
+    <p>&nbsp;&nbsp;3. Mips 架构暂时只能使用虚拟机来运行 Windows exe</p>
+    <p>&nbsp;&nbsp;4. 更新了下方的常见问题。</p>
+    <br/>
+    <br/>
+    <p align="right">gfdgd xi 2024年07月18日</p>
     <hr>
     <h3>常见问题</h3>
     <pre>
-<b>1、 arm电脑安装哪个wine？</b>
+<b>1、 非 X86 架构电脑（如飞腾、鲲鹏、麒麟、龙芯等）如何运行 exe？</b>
     有以下几种方案：
-        a. box86+x86 wine，一般推荐这一方案
+        a. box86/64+x86 wine，一般推荐这一方案（支持 飞腾、鲲鹏、麒麟和 riscv64 架构机器）。
+          但鲲鹏、以及 riscv64 机器因为一些问题只支持 box64 而不能使用 box86，
+          Wine 运行器的“安装更多 Wine（Wine 安装工具）”可以一键下载集成 box64 和 Wine X86 的包（____-wow64-_____-box64-_____），
+          飞腾、鲲鹏、麒麟下载带 arm 字样的，而 riscv64 架构需下载带 riscv64 字样的
         b. 是exagear+wine x86（只支持鲲鹏）
         c. 运行arm wine，推荐用 wine ce 因为原版的 arm wine 只能运行 arm exe 但 wine ce 可以运行 x86 exe
-        一般用户推荐使用方法1/2或者 wine ce，但 wine ce 需要系统的 libc6 比较新
+        e. 使用 lat 运行 Wine（支持龙芯 3a5000 及其以上版本），一般安装应用商店
+        d. 使用 Qemu 安装 Windows 虚拟机（支持龙芯 3a2000 及以上，飞腾、鲲鹏、麒麟等等），但是效率较低，推荐安装 Windows XP
+        一般用户推荐使用方法1/2或者 wine ce，但 wine ce 需要系统的 libc6 比较新（银河麒麟和 UOS 的 GLIBC 版本都不足以运行 Wine CE）
 <b>2、麒麟系统能用吗</b>
     能，但是openkylin要自己补依赖
 <b>3、字体问题怎么处理</b>
 wine 运行器的字体商店或者星火的安装 Windows 字体，在打包deb时推荐把字体打包在里面
-<b>4、deepin wine8 stable 能不能在arm用（box64）</b>
-    可以，但需要拉取box64 Github最新的代码编译
-<b>5、arm dwine6不能运行64位exe</b>
-    是的，不支持，同理也不支持64位wine容器。但可以安装64位wine+box64解决
+<b>4、arm dwine6不能运行64位exe</b>
+    是的，不支持，同理也不支持64位wine容器。但可以安装64位wine+box64或者使用 deepin-wine8-stable 解决
 <b>6、Windows虚拟机配置工具点击安装无反应</b>
     菜单栏里面找到安装日志然后到 https://gitee.com/gfdgd-xi/deep-wine-runner/issues 反馈
 <b>7、运行 wine提示libc6版本太老</b>
@@ -41,11 +51,7 @@ wine 运行器的字体商店或者星火的安装 Windows 字体，在打包deb
     可以安装mono（社区的开源实现），当然也可以安装微软原版的 .net framrwork
     均可在 Wine 运行器主界面的菜单栏“Wine”=》“在指定Wine、容器安装组件”处找到安装工具
     同理也有 Internet Explorer 的开源实现 gecko，但极不推荐安装微软原版的 Internet Explorer
-<b>11、UOS 3a4000 用户使用 Qemu 时出现虚拟机无法正常开机的问题</b>
-    UOS 3a4000 用户在使用 Qemu 时可能会出现虚拟机无法正常开机的问题，需要安装/降级到以下链接的版本：
-    蓝奏云：https://gfdgdxi.lanzoue.com/b01rk9wza 密码:6wvf
-    诚通网盘：http://ctfile.gfdgdxi.top/d/31540479-58662214-c46520?p=2061 (访问密码: 2061)
-<b>12、哪里可以获取 Windows 系统安装镜像</b>
+<b>11、哪里可以获取 Windows 系统安装镜像</b>
     可以在微软官网或者 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 获取
     也可以在下面的链接下载：
         123 网盘链接：<a href="https://www.123pan.com/s/pDSKVv-oypWv">https://www.123pan.com/s/pDSKVv-oypWv</a>
@@ -54,7 +60,7 @@ wine 运行器的字体商店或者星火的安装 Windows 字体，在打包deb
         诚通网盘：<a href="http://ctfile.gfdgdxi.top/d/31540479-58662220-3590cf?p=2061">http://ctfile.gfdgdxi.top/d/31540479-58662220-3590cf?p=2061</a> (访问密码: 2061)
         ed2k（Windows 7 32 位）：<a href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/">ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/</a>
         ed2k（Windows 7 64 位）：<a href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/">ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/</a>
-<b>13、如何赞赏作者/请作者喝杯茶</b>
+<b>12、如何赞赏作者/请作者喝杯茶</b>
     往下翻
 </pre>
     <hr/>

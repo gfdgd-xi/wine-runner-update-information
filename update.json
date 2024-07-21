@@ -3,5 +3,6 @@
 	"New": "3.9.2 更新内容：\n※1、移除冗余组件\n※2、修复 Wine 安装器在文件下载失败后无法自动关闭进度条和解除控件禁用的问题\n※3、Wine 打包器不允许版本号开头输入首字母以及版本号不允许出现空格\n※4、Wine 打包器生成的 deb 同时支持使用 spark-dwine-helper 和 deepin-wine-helper\n※5、支持调用拓展 Qemu\n※6、新增滚动条，优化小屏幕使用体验\n\n更新时间：2024年06月29日",
 	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.9.2/spark-deepin-wine-runner_3.9.2_all.deb"],
 	"Url-pkg": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-1-any.pkg.tar.zst/download"],
-	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-0.noarch.rpm/download"]
+	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-0.noarch.rpm/download"],
+	"Url-termux": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-0.noarch.rpm/download"]
 }

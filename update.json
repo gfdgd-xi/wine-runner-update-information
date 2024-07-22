@@ -1,8 +1,8 @@
 {
-	"Version": "3.9.2",
-	"New": "3.9.2 更新内容：\n※1、移除冗余组件\n※2、修复 Wine 安装器在文件下载失败后无法自动关闭进度条和解除控件禁用的问题\n※3、Wine 打包器不允许版本号开头输入首字母以及版本号不允许出现空格\n※4、Wine 打包器生成的 deb 同时支持使用 spark-dwine-helper 和 deepin-wine-helper\n※5、支持调用拓展 Qemu\n※6、新增滚动条，优化小屏幕使用体验\n\n更新时间：2024年06月29日",
-	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/3.9.2/spark-deepin-wine-runner_3.9.2_all.deb"],
-	"Url-pkg": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-1-any.pkg.tar.zst/download"],
-	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/3.9.2/spark-deepin-wine-runner-3.9.2-0.noarch.rpm/download"],
-	"Url-termux": ["http://10.0.0.7:9999/spark-deepin-wine-runner-termux.deb"]
+	"Version": "4.0.0",
+	"New": "4.0.0 更新内容：\n※1、优化运行器窗口大小机制\n※2、Wine 安装器支持根据机器实际情况自动推荐适合的 Wine\n※3、Wine 安装器支持手动导入 Wine 7z 包并提供相应 7z 包的网盘下载地址\n※4、兼容 Deepin 终端（deepin 15 经典版本，deepin-terminal-gtk）\n※5、跟进 dxvk 2.4\n※6、修复 deepin 23 无法使用 Mono/Gecko 安装器的问题\n※7、修复 debian testing 打包时会把 / 打入 .7z 包内导致系统死机的问题\n※8、支持 AOSC（安同）、小小电脑、proot 容器\n※9、支持在 Termux 直接运行（单独提供安装包）\n10、修复虚拟机启动器入口不会调用安装的 Qemu Extra 的问题\n11、优化高级打包器容器名称生成机制\n12、修复部分机器无法正常打开高级打包器的问题\n13、修复高级打包器选择Wine封装入deb模式时helper只能使用spark dwine helper的问题\n\n更新时间：2024年07月22日",
+	"Url": ["https://gitee.com/gfdgd-xi/deep-wine-runner/releases/download/4.0.0/spark-deepin-wine-runner_4.0.0_all.deb"],
+	"Url-pkg": ["https://sourceforge.net/projects/deep-wine-runner/files/4.0.0/spark-deepin-wine-runner-4.0.0-1-any.pkg.tar.zst/download"],
+	"Url-rpm": ["https://sourceforge.net/projects/deep-wine-runner/files/4.0.0/spark-deepin-wine-runner-4.0.0-0.noarch.rpm/download"],
+	"Url-termux": ["https://sourceforge.net/projects/deep-wine-runner/files/4.0.0/spark-deepin-wine-runner-termux_4.0.0_all.deb/download"]
 }
